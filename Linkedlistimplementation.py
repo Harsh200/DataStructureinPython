@@ -9,6 +9,8 @@ class Linkedlist():
         self.headval=None
 
 
+    def listprint(self):
+
 list1=Linkedlist()
 list1.headval=Node("Mon")
 e2=Node("tue")
