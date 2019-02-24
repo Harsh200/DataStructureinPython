@@ -7,3 +7,5 @@ class Node:
 class Linkedlist():
     def __init__(self):
         self.headval=None
+
+list1=Linkedlist()
