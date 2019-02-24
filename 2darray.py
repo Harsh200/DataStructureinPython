@@ -1,1 +1,1 @@
-list=["computer"]
+list=["computer","bio","maths"]
