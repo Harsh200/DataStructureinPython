@@ -10,9 +10,10 @@ class Linkedlist():
 
 
     def listprint(self):
-        printval=self.headval
-        while printval is not None:
-
+       printval=self.headval
+       while printval is not None:
+            print(printval.dataval)
+            printval = printval.nextval
 
 list1=Linkedlist()
 list1.headval=Node("Mon")
@@ -21,4 +22,4 @@ e3=Node("wed")
 list1.headval.nextval=e2
 e2.nextval=e3
 
-
+list1.listprint()
