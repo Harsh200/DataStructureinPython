@@ -9,3 +9,8 @@ class Linkedlist():
         self.headval=None
 
 list1=Linkedlist()
+list1.headval=Node("Mon")
+e2=Node("tue")
+e3=Node("wed")
+list1.headval.nextval=e2
+e2.nextval=e3
